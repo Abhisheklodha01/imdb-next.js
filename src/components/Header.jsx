@@ -5,7 +5,8 @@ import MenuItme from "./MenuItme";
 import Link from "next/link";
 import SwitchTheme from "./SwitchTheme";
 
-function Header() {
+function  Header() {
+  
   return (
     <div className=" dark:bg-gray-700 bg-white py-4 flex justify-between items-center p-3">
       <div className="flex gap-4 ml-10">
