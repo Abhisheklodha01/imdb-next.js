@@ -9,7 +9,7 @@ function MenuItme({ title, address, Icon }) {
       <Icon
       className=" text-2xl sm:hidden "
       />
-      <p className="uppercase hidden sm:inline text-sm" >{title}</p>
+      <p className="uppercase hidden sm:inline text-lg" >{title}</p>
     </Link>
   );
 }

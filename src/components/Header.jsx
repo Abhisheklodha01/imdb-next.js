@@ -7,7 +7,7 @@ import SwitchTheme from "./SwitchTheme";
 
 function Header() {
   return (
-    <div className=" bg-cyan-700 py-4 flex justify-between items-center p-3">
+    <div className=" dark:bg-gray-700 bg-white py-4 flex justify-between items-center p-3">
       <div className="flex gap-4 ml-10">
         <MenuItme title="Home" address="/" Icon={AiFillHome} />
         <MenuItme title="About" address="/about" Icon={BsFillInfoCircleFill} />
