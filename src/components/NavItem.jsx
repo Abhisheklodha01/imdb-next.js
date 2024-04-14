@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import React from "react";
 
-function NavItem({ title, param }) {
+export default function NavItem({ title, param }) {
   const searchParams = useSearchParams();
   const genre = searchParams.get('genre');
   return (
@@ -22,4 +22,3 @@ function NavItem({ title, param }) {
   );
 }
 
-export default NavItem;

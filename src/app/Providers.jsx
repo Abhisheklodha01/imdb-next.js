@@ -1,7 +1,7 @@
 "use client";
 import { ThemeProvider } from "next-themes";
 
-function Providers({ children }) {
+export default function Providers({ children }) {
   return (
     <ThemeProvider defaultTheme="system" attribute="class">
       <div
@@ -14,4 +14,3 @@ function Providers({ children }) {
   );
 }
 
-export default Providers;

@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-function Results({ results }) {
+export default function Results({ results }) {
   return (
     <div
       className="sm:grid sm:grid-cols-2 lg:grid-cols-3
@@ -14,4 +14,4 @@ function Results({ results }) {
   );
 }
 
-export default Results;
+

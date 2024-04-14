@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-function Error({ error, reset }) {
+export default function Error({ error, reset }) {
   React.useEffect(() => {
     console.log(error);
   }, [error]);
@@ -20,4 +20,3 @@ function Error({ error, reset }) {
   );
 }
 
-export default Error;

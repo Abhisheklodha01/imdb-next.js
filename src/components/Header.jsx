@@ -5,7 +5,7 @@ import MenuItme from "./MenuItme";
 import Link from "next/link";
 import SwitchTheme from "./SwitchTheme";
 
-function  Header() {
+export default function  Header() {
   
   return (
     <div className=" dark:bg-gray-700 bg-white py-4 flex justify-between items-center p-3">
@@ -26,4 +26,3 @@ function  Header() {
   );
 }
 
-export default Header;

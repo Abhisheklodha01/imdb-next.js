@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-function MenuItme({ title, address, Icon }) {
+export default function MenuItme({ title, address, Icon }) {
   return (
     <Link href={address}
     className="hover:text-amber-500"
@@ -14,4 +14,4 @@ function MenuItme({ title, address, Icon }) {
   );
 }
 
-export default MenuItme;
+

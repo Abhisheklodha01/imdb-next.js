@@ -4,10 +4,9 @@ export const metadata = {
     title: "IMDB : About"
 }
 
-function AboutPage() {
+
+export default function AboutPage() {
   return (
         <About />
   )
 }
-
-export default AboutPage

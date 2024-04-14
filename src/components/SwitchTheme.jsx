@@ -3,7 +3,7 @@ import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
-function SwitchTheme() {
+export default function SwitchTheme() {
   const { theme, setTheme, systemTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const currentTheme = theme === "system" ? systemTheme : theme;
@@ -26,4 +26,4 @@ function SwitchTheme() {
   );
 }
 
-export default SwitchTheme;
+
