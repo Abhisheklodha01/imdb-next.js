@@ -14,7 +14,7 @@ function SwitchTheme() {
         (currentTheme === "dark" ? (
           <MdLightMode
             onClick={() => setTheme("light")}
-            className="text-xl cursor-pointe hover:text-amber-500"
+            className="text-xl cursor-pointer hover:text-amber-500"
           />
         ) : (
           <MdDarkMode
